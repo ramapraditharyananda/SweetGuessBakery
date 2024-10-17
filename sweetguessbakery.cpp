@@ -93,8 +93,7 @@ void pilihGameKue() {
         mainMenu();  // Kembali ke menu utama jika pengguna memilih 'Tidak'
         return;
     } else if (pilihan != 1) {
-        cout << "Pilihan hanya 1 atau 2, well 🤟" << endl;
-        mainMenu();  // Kembali ke menu utama jika pilihan tidak valid
+        cout << "Selamat, Anda dapat bermain, well 🤟" << endl;
         return;
     }
     
